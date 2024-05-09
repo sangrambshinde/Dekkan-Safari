@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Hind:wght@300;400;500;600;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sedan+SC&display=swap');
+
+.main-container{
+	height: 100vh;
+	width: 97%;
+	 font-family: "Nunito Sans", sans-serif;
+	 position: absolute;
+	}
+
+.img{
+  align-items: center;
+	height: 500px;
+	width: 700px;
+}
+
+h1{
+	align-items: center;
+	margin-left: 550px;
+	font-family: "Sedan SC", serif;
+}
+
+h3{
+	font-family: "Sedan SC", serif;
+}
+
+span{
+	 font-family: "Eczar", serif;
+}
+
+/* Zoom In #1 */
+figure{
+	margin-left: 40px;
+
+}
+
+img{
+	margin-left: 40px;
+	
+}
+
+p{
+	text-indent: 30px;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+ul{
+	font-family: "Nunito Sans", sans-serif;
+}
+.hover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+  
+
+  .main{
+  
+    height: 100vh;
+    width: 100%;
+  }
+  .only-nav{
+    background-color: rgb(46, 64, 92);
+    font-size: 15px;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .navbar-brand{
+  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; 
+  }
+
+
+  

@@ -1,0 +1,144 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main{
+
+  height: 100vh;
+  width: 100%;
+}
+.only-nav{
+  background-color: rgb(46, 64, 92);
+  font-size: 15px;
+  animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navbar-brand{
+
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px; 
+}
+
+.about-cards {
+  padding: 42px;
+  height: 1900px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 100px;
+  width: 1200px;
+}
+.card {
+  margin: 30px;
+  border-radius: 300px;
+  text-align: justify;
+  img {
+    height: 180px;
+  }
+  p {
+    height: 70px;
+    overflow: hidden;
+    font-size: 15px;
+  }
+  transition-duration: 0.3s;
+}
+.card {
+  border-radius: 30px !important;
+}
+.card img {
+  border-radius: 30px 30px 0px 0px !important;
+}
+.btn {
+  transition-duration: 0.5s !important;
+  width: 250px !important;
+}
+.btn:hover {
+  background-color: green !important;
+  cursor: pointer;
+  border: none;
+}
+.card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 20px 20px 20px rgb(112, 111, 111);
+}
+.hero-video {
+  height: 85vh;
+}
+
+  video {
+    width: 100%;
+    height: 670px;
+    object-fit: cover;
+}
+
+/* .nav-bar {
+  height: 110px;
+  width: 100%;
+  background-color: #046169;
+} */
+
+.mazaraja {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  height: 400px;
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+  img {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+  }
+  p {
+    width: 700px;
+    font-size: 17px;
+    text-align: justify;
+  }
+}
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: #262626;
+  
+  p {
+    color: aliceblue;
+    padding-top: 30px;
+    font-size: 19px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+}
+.nav-link{
+
+  font-size: 20px;
+
+  margin-right: 15px;
+}
+.div2{
+
+  background-color: rgb(201, 204, 218);
+}
+/* .navbar-brand{
+
+ margin-top: 100px;
+ height: 20px;
+
+
+ 
+} */
+.dropdown-item{
+
+  font-weight: bolder;
+  background-color: lavender;
+}
+.dropdown-menu{
+  font-weight: bolder;
+  background-color: lavender;
+
+}
+

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+  
+    height: 100vh;
+    width: 100%;
+  }
+  .only-nav{
+    background-color: rgb(46, 64, 92);
+    font-size: 15px;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .navbar-brand{
+  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; 
+  }
+  .nav-link{
+
+    font-size: 20px;
+  }
+
+  .section-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.84px;
+    font-weight: 700;
+    color: #7b6cd5;
+    text-align: center;
+  }
+  .section-title-desc {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.45px;
+    color: #666;
+    text-align: center;
+  }
+  .mycaro{
+      height: 700%;
+      width: 700px;
+  }
+  .history{
+      padding-top: 30px;
+      font-size: 25px;
+      
+      text-align: justify;
+       margin-left: 40px;
+      margin-right: 40px;
+  }
+  .structure{
+      padding-top: 30px;
+       margin-left: 40px;
+      margin-right: 40px;
+      font-size: 25px;
+  
+  }
+  .loc{
+      padding-top: 30px;
+      margin-left: 350px;
+      margin-right: 350px;
+  }
+
+  .carousel-item .active{
+
+    width: 40px;
+    height: 40px;
+
+
+  }

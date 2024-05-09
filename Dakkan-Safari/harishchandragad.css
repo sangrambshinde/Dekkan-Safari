@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .main{
+  
+    height: 100vh;
+    width: 100%;
+  }
+  .only-nav{
+    background-color: rgb(46, 64, 92);
+    font-size: 15px;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+  .navbar-brand{
+  
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px; 
+  }
+
+
+.navbar{
+	height: 100px;
+}
+.table{
+	border: 2px black;
+	width: 100%;
+	height: 300px;
+}
+.img{
+	margin-left: 20px;
+	width: 600px;
+	height: 400px;
+}
+.info{
+	font-size: 25px;
+}
+.images{
+	width: 600px;
+	height: 400px;
+	margin-left: 350px;
+}
+.map{
+	width: 500px;
+	height: 350px;
+}
+.head{
+
+  margin-left: 8%;
+}
